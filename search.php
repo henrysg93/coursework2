@@ -21,8 +21,6 @@
 <p> <a href="http://henrysg93.azurewebsites.net/index.php">Return to registration!</a> </p>
 <form method="post" action="index.php" enctype="multipart/form-data" >
       Name  <input type="text" name="name" id="name"/></br>
-      Email <input type="text" name="email" id="email"/></br>
-	  Company <input type="text" name="company" id="company"/></br>
       <input type="submit" name="submit" value="Submit" />
 </form>
 <?php

@@ -50,7 +50,7 @@
     catch(Exception $e) {
         die(var_dump($e));
     }
-    echo "<h2>Your search results for: ".$name."</h2>;
+    echo "<h2>Your search results for: ".$name."</h2>";
     }
     // Retrieve data
     $sql_select = "SELECT * FROM registration_tbl WHERE name =" . $name;

@@ -50,14 +50,14 @@
     catch(Exception $e) {
         die(var_dump($e));
     }
-    echo "<h3>  </h3>";
+    echo "<h2>Your search results:</h2>";
     }
     // Retrieve data
     $sql_select = "SELECT * FROM registration_tbl WHERE name =" . $name;
     $stmt = $conn->query($sql_select);
     $registrants = $stmt->fetchAll(); 
     if(count($registrants) > 0) {
-        echo "<h2>Your search results:</h2>";
+        
         echo "<table>";
         echo "<tr><th>Name</th>";
         echo "<th>Email</th>";

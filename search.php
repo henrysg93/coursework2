@@ -50,10 +50,10 @@
     catch(Exception $e) {
         die(var_dump($e));
     }
-    echo "<h3>You're registered!</h3>";
+    echo "<h3>Here are your search results</h3>";
     }
     // Retrieve data
-    $sql_select = "SELECT * FROM registration_tbl";
+    $sql_select = "SELECT * FROM registration_tbl WHERE name = "$name"";
     $stmt = $conn->query($sql_select);
     $registrants = $stmt->fetchAll(); 
     if(count($registrants) > 0) {

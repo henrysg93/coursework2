@@ -19,7 +19,7 @@
 <h1>Henry Scott-Green Fan Club - Search Page!</h1>
 <p>Fill in your name and email address, then click <strong>Search</strong> to search.</p>
 <p> <a href="http://henrysg93.azurewebsites.net/index.php">Back to signups</a> </p>
-<form method="post" action="search.php" enctype="multipart/form-data" >
+<form method="post" action="index.php" enctype="multipart/form-data" >
       
 	  Company <input type="text" name="company" id="company"/></br>
       <input type="search" name="search" value="search" />

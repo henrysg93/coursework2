@@ -42,7 +42,7 @@
     // Insert registration info
     if(!empty($_POST)) {
     try {
-        $name = $_POST['name'];
+        $name = $_POST["'name'"];
        
         // Insert data
         

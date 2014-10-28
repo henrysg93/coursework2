@@ -16,7 +16,7 @@
 </style>
 </head>
 <body>
-<h1>Henry Scott-Green Fan Club - Sign Up Form!</h1>
+<h1>Graham Roberts Fan Club - Sign Up Form!</h1>
 <p>Fill in your name and email address, then click <strong>Submit</strong> to register.</p>
 <p> <a href="http://henrysg93.azurewebsites.net/search.php">Search records now!</a> </p>
 <form method="post" action="index.php" enctype="multipart/form-data" >
